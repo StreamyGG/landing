@@ -28,6 +28,15 @@
         </h1>
       </a>
       <a
+        href="https://github.com/StreamyGG"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h1 class="github">
+          <font-awesome-icon :icon="['fab', 'github']" />&nbsp;&nbsp;GitHub
+        </h1>
+      </a>
+      <a
         href="https://ko-fi.com/bryden"
         target="_blank"
         rel="noopener noreferrer"
@@ -85,45 +94,59 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  }
 
-  .discord {
-    font-size: medium;
-    background-color: rgba(88, 101, 242, 1);
-    border-radius: 10px;
-    padding: 8px 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+    .discord {
+      font-size: medium;
+      background-color: rgba(88, 101, 242, 1);
+      border-radius: 10px;
+      padding: 8px 15px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
 
-  .discord:hover {
-    background-color: rgba(88, 101, 242, 0.5);
-  }
+    .discord:hover {
+      background-color: rgba(88, 101, 242, 0.5);
+    }
 
-  .donate {
-    font-size: medium;
-    background-color: rgba(14, 161, 101, 1);
-    border-radius: 10px;
-    padding: 8px 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+    .donate {
+      font-size: medium;
+      background-color: rgba(14, 161, 101, 1);
+      border-radius: 10px;
+      padding: 8px 15px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
 
-  .donate:hover {
-    background-color: rgba(14, 161, 101, 0.5);
-  }
+    .donate:hover {
+      background-color: rgba(14, 161, 101, 0.5);
+    }
 
-  .twitter {
-    font-size: medium;
-    background-color: rgba(29, 161, 242, 1);
-    border-radius: 10px;
-    padding: 8px 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+    .twitter {
+      font-size: medium;
+      background-color: rgba(29, 161, 242, 1);
+      border-radius: 10px;
+      padding: 8px 15px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
 
-  .twitter:hover {
-    background-color: rgba(29, 161, 242, 0.5);
+    .twitter:hover {
+      background-color: rgba(29, 161, 242, 0.5);
+    }
+
+    .github {
+      font-size: medium;
+      background-color: rgba(36, 41, 46, 1);
+      border-radius: 10px;
+      padding: 8px 15px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      color: white;
+    }
+
+    .github:hover {
+      background-color: rgba(36, 41, 46, 0.5);
+    }
   }
 
   @media (max-width: 5px) {

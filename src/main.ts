@@ -14,9 +14,17 @@ import {
   faDiscord,
   faXTwitter,
   faTwitter,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faGear, faDiscord, faCircleDollarToSlot, faXTwitter, faTwitter);
+library.add(
+  faGear,
+  faDiscord,
+  faCircleDollarToSlot,
+  faXTwitter,
+  faTwitter,
+  faGithub,
+);
 
 const app = createApp(App);
 

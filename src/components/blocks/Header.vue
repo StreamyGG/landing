@@ -59,6 +59,7 @@ import { RouterLink, RouterView } from "vue-router";
   h1.title {
     color: white;
     transition: color 0.3s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   h1.title:hover {
     color: rgba(14, 161, 101, 1);
