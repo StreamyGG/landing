@@ -1,1 +1,11 @@
-@import './base.css';
+@import "./base.css";
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.router-link-exact-active {
+  color: var(--color-text);
+  text-decoration: none;
+}
