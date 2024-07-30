@@ -31,8 +31,8 @@ import { RouterLink, RouterView } from "vue-router";
   color: white;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 25px;
-  border-bottom: 0.25px solid black;
+  padding: 10px 25px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
 
   div.left {
