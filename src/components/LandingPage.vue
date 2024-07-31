@@ -2,7 +2,7 @@
 
 <template>
   <div class="landing">
-    <img src="../assets/img/icon.webp" class="icon" />
+    <img src="/icon.webp" class="icon" />
     <h1>Best Multi-Streaming Tool</h1>
     <p>
       Seamlessly multistream to different platforms, while only having to add
