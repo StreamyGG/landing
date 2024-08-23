@@ -28,7 +28,6 @@ import { RouterLink, RouterView } from "vue-router";
 <style lang="scss">
 .header {
   display: flex;
-  color: white;
   justify-content: space-between;
   align-items: center;
   padding: 10px 25px;
@@ -50,6 +49,7 @@ import { RouterLink, RouterView } from "vue-router";
     padding: 8px 15px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    color: white;
   }
 
   .dashboard:hover {
@@ -57,7 +57,6 @@ import { RouterLink, RouterView } from "vue-router";
   }
 
   h1.title {
-    color: white;
     transition: color 0.3s ease;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;

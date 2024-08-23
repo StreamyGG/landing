@@ -79,7 +79,6 @@
 
   h1 {
     margin: 15px 11px 11px;
-    color: white;
     font-weight: 700;
   }
 
@@ -94,6 +93,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    color: white;
 
     .discord {
       font-size: medium;
@@ -141,7 +141,6 @@
       padding: 8px 15px;
       cursor: pointer;
       transition: background-color 0.3s ease;
-      color: white;
     }
 
     .github:hover {
